@@ -68,9 +68,9 @@ params:
     giscus:
       enable: true
       repo: Eliaukz/blog-comments
-      repo_id: R_kgDOHtsjNw
-      category: Announcements
-      category_id: DIC_kwDOHtsjN84CQr99
+      repo_id: R_kgDOMch0OQ
+      category: General
+      category_id: DIC_kwDOMch0Oc4ChQKN
       mapping: pathname
       position: top
       lang: zh-CN # pick a language from https://github.com/giscus/giscus/tree/main/locales
@@ -78,9 +78,9 @@ params:
       enable: false
       repo: Eliaukz/blog-comments
       issueTerm: pathname
-  analytics:
-    google:
-      SiteVerificationTag: RL6kP6-6yjRPyYGLeqBQ2JIX6QQAz7A6gHZb7bHlZnU
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: RL6kP6-6yjRPyYGLeqBQ2JIX6QQAz7A6gHZb7bHlZnU
     # umami:
     #   enable: true
     #   website_id: 24349452-bff6-4e96-93bf-6c764e191b26
