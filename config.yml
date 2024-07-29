@@ -23,9 +23,9 @@ menu:
     - name: Blog
       url: /blog
       weight: 1
-    - name: Life
-      url: /art
-      weight: 2
+    # - name: Life
+    #   url: /art
+    #   weight: 2
     - name: Archive
       url: /archives
       weight: 3
@@ -38,8 +38,8 @@ menu:
 params:
   brand: HOME
   avatarURL: /images/avatar.png
-  author: Guangzheng Li
-  authorDescription: 'Welcome to my blog, contact me: iguangzhengli@gmail.com'
+  author: Eliaukz
+  authorDescription: 'Welcome to my blog, contact me: 1975793885@qq.com'
   info: |
     A Full Stack Developer, Reading & Thinking
 
@@ -58,15 +58,15 @@ params:
     description: Support me by becoming a sponsor
     buymeaCoffee:
       enable: true
-      url: https://www.buymeacoffee.com/iguangzhengli
-      buttom_api: https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=iguangzhengli&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
-      qr: https://storage.guangzhengli.com/images/buymeacoffee_sponsors.png
+      # url: https://www.buymeacoffee.com/iguangzhengli
+      # buttom_api: https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=iguangzhengli&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
+      # qr: https://storage.guangzhengli.com/images/buymeacoffee_sponsors.png
     wechat:
       enable: true
-      qr: https://storage.guangzhengli.com/images/alipay_sponsors.jpeg
+      # qr: https://storage.guangzhengli.com/images/alipay_sponsors.jpeg
     alipay:
       enable: true
-      qr: https://storage.guangzhengli.com/images/weixin_sponsors.jpeg
+      # qr: https://storage.guangzhengli.com/images/weixin_sponsors.jpeg
   comments:
     giscus:
       enable: true
@@ -76,7 +76,7 @@ params:
       category_id: DIC_kwDOHtsjN84CQr99
       mapping: pathname
       position: top
-      lang: en # pick a language from https://github.com/giscus/giscus/tree/main/locales
+      lang: zh-CN # pick a language from https://github.com/giscus/giscus/tree/main/locales
     utteranc:
       enable: false
       repo: Eliaukz/blog-comments
@@ -84,10 +84,10 @@ params:
   analytics:
     google:
       SiteVerificationTag: RL6kP6-6yjRPyYGLeqBQ2JIX6QQAz7A6gHZb7bHlZnU
-    umami:
-      enable: true
-      website_id: 24349452-bff6-4e96-93bf-6c764e191b26
-      url: https://umami-ochre-nu.vercel.app/hugo-ladder
+    # umami:
+    #   enable: true
+    #   website_id: 24349452-bff6-4e96-93bf-6c764e191b26
+    #   url: https://umami-ochre-nu.vercel.app/hugo-ladder
   guestbook:
     title: Guestbook
     description: Leave a comment below. It could be anything – appreciation, information, wisdom, or even humor. Surprise me!!!
@@ -111,14 +111,13 @@ params:
         feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0
         0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20
         0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-      url: 'https://twitter.com/iEliaukz'
+      # url: 'https://twitter.com/iEliaukz'
 languages:
-  en:
-    languageName: EN
+  
   zh:
     languageName: 中
     brand: 主页
-    author: Guangzheng Li
+    author: Eliaukz
     authorDescription: 阅读与思考，真理与自由
     info: |
       一个还在重新学习，重塑思想的开发者
@@ -133,18 +132,20 @@ languages:
         - name: 文章
           url: /blog
           weight: 1
-        - name: 即兴
-          url: /art
-          weight: 2
+        # - name: 即兴
+        #   url: /art
+        #   weight: 2
         - name: 历史文章
           url: /archives
           weight: 3
         - name: 留言板
           url: /guestbook
           weight: 4
-        - name: 网站统计
-          url: https://analytics.guangzhengli.com/share/o3zAba1V/guangzhengli
-          weight: 5
+        # - name: 网站统计
+        #   url: https://analytics.guangzhengli.com/share/o3zAba1V/guangzhengli
+        #   weight: 5
+  en:
+    languageName: EN
 taxonomies:
   series: series
   tag: tags
