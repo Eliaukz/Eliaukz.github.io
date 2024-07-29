@@ -27,13 +27,13 @@ menu:
     #   url: /art
     #   weight: 2
     - name: Archive
-      url: /archives
+      url: /sites/archives
       weight: 3
     - name: Guestbook
-      url: /guestbook
+      url: /sites/guestbook
       weight: 4
     - name: About
-      url: /about
+      url: /blog/about
       weight: 5
 params:
   brand: HOME
@@ -136,13 +136,13 @@ languages:
         #   url: /art
         #   weight: 2
         - name: 历史文章
-          url: /archives
+          url: /sites/archives
           weight: 3
         - name: 留言板
-          url: /guestbook
+          url: /sites/guestbook
           weight: 4
         - name: 关于
-          url: /about
+          url: /blog/about
           weight: 5
   en:
     languageName: EN
