@@ -23,17 +23,14 @@ menu:
     - name: Blog
       url: /blog
       weight: 1
-    # - name: Life
-    #   url: /art
-    #   weight: 2
     - name: Archive
-      url: /sites/archives
+      url: /archives
       weight: 3
     - name: Guestbook
-      url: /sites/guestbook
+      url: /guestbook
       weight: 4
     - name: About
-      url: /blog/about
+      url: /about
       weight: 5
 params:
   brand: HOME
@@ -132,17 +129,14 @@ languages:
         - name: 文章
           url: /blog
           weight: 1
-        # - name: 即兴
-        #   url: /art
-        #   weight: 2
         - name: 历史文章
-          url: /sites/archives
+          url: /archives
           weight: 3
         - name: 留言板
-          url: /sites/guestbook
+          url: /guestbook
           weight: 4
         - name: 关于
-          url: /blog/about
+          url: /about
           weight: 5
   en:
     languageName: EN
