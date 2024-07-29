@@ -32,9 +32,9 @@ menu:
     - name: Guestbook
       url: /guestbook
       weight: 4
-    - name: Dashboard
-      url: https://analytics.guangzhengli.com/share/o3zAba1V/guangzhengli
-      weight: 5
+    # - name: Dashboard
+    #   url: https://analytics.guangzhengli.com/share/o3zAba1V/guangzhengli
+    #   weight: 5
 params:
   brand: HOME
   avatarURL: /images/avatar.png
