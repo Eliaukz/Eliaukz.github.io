@@ -32,9 +32,9 @@ menu:
     - name: Guestbook
       url: /guestbook
       weight: 4
-    # - name: Dashboard
-    #   url: https://analytics.guangzhengli.com/share/o3zAba1V/guangzhengli
-    #   weight: 5
+    - name: About
+      url: /about
+      weight: 5
 params:
   brand: HOME
   avatarURL: /images/avatar.png
@@ -141,9 +141,9 @@ languages:
         - name: 留言板
           url: /guestbook
           weight: 4
-        # - name: 网站统计
-        #   url: https://analytics.guangzhengli.com/share/o3zAba1V/guangzhengli
-        #   weight: 5
+        - name: 关于
+          url: /about
+          weight: 5
   en:
     languageName: EN
 taxonomies:
