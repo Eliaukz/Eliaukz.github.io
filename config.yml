@@ -42,7 +42,7 @@ params:
 
     [RSS](https://eliaukz.github.io//index.xml) ·
     [Sponsor](https://eliaukz.github.io//sponsors)
-  favicon: /images/favicon.ico
+  favicon: /favicon.ico
   options:
     showDarkMode: true
     enableImgZooming: true
