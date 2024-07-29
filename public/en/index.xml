@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eliaukz</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on Eliaukz</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>2024 Eliaukz All rights reserved</copyright>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archives</title>
+      <link>http://localhost:1313/en/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/en/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/en/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guestbook</title>
+      <link>http://localhost:1313/en/guestbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/guestbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>http://localhost:1313/en/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
