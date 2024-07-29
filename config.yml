@@ -140,6 +140,3 @@ languages:
           weight: 5
   en:
     languageName: EN
-taxonomies:
-  series: series
-  tag: tags
