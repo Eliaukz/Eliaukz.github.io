@@ -34,7 +34,7 @@ menu:
       weight: 5
 params:
   brand: HOME
-  avatarURL: /images/avatar.png
+  avatarURL: /images/avatar.ipg
   author: Eliaukz
   authorDescription: 'Welcome to my blog, contact me: 1975793885@qq.com'
   info: |
