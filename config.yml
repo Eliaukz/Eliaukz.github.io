@@ -6,11 +6,11 @@ baseURL: 'https://eliaukz.github.io/'
 title: Eliaukz
 theme: hugo-theme-ladder
 license: MIT
-licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
-description: 'A fast, clean Hugo theme'
+licenselink: 'https://github.com/Eliaukz/Eliaukz.github.io/blob/master/LICENSE'
+description: 'A programmer, enjoying life'
 homepage: 'https://eliaukz.github.io/'
 defaultContentLanguage: 'zh'
-googleAnalytics: G-7E4JNTL3ES
+# googleAnalytics: G-7E4JNTL3ES
 enableRobotsTXT: true
 paginate: 10
 # markup:
@@ -38,7 +38,7 @@ params:
   author: Eliaukz
   authorDescription: 'Welcome to my blog, contact me: 1975793885@qq.com'
   info: |
-    A Full Stack Developer, Reading & Thinking
+    A peogrammer, Reading & Thinking
 
     [RSS](https://eliaukz.github.io//index.xml) ·
     [Sponsor](https://eliaukz.github.io//sponsors)
@@ -115,7 +115,7 @@ languages:
     languageName: 中
     brand: 主页
     author: Eliaukz
-    authorDescription: 阅读与思考，真理与自由
+    authorDescription: 阅读 & 享受生活
     info: |
       一个还在重新学习，重塑思想的开发者
 
