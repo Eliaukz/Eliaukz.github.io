@@ -206,6 +206,7 @@ void TrieStore::Remove(std::string_view key) {
 
 综上就完成了全部操作。
 
-  ![result](https://github.com/Eliaukz/blog-comments/blob/main/trie-result.png)
 
+
+![result](https://raw.githubusercontent.com/Eliaukz/blog-comments/main/trie-result.png)
 
