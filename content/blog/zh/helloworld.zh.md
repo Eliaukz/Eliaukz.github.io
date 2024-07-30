@@ -1,7 +1,8 @@
 ---
 title: hello world
-date: 2014-07-24 23:31:30
+date: 2024-07-24 23:31:30
 featured: true
+math: trew
 ---
 
 # hello world
