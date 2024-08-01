@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/en/helloworld.en.md",
+                "file": "content/blog/zh/cow-trie.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/en/helloworld.en.md",
+                "file": "content/blog/zh/cow-trie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/en/helloworld.en.md",
+                "file": "content/blog/zh/cow-trie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/en/helloworld.en.md"
+                "file": "content/blog/zh/cow-trie.md"
               }
             }
           }
@@ -146,18 +146,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4c8f89b3a7c721d1",
+  "active": "e21108b4d07a114b",
   "lastOpenFiles": [
+    "resources/_gen/assets/scss/scss/app.scss_6b12950d2b9f6e2af6adb89100f8a722.content",
+    "resources/_gen/assets/scss/scss/app.scss_6b12950d2b9f6e2af6adb89100f8a722.json",
+    "resources/_gen/assets/scss/scss",
+    "resources/_gen/assets/scss",
+    "resources/_gen/images",
+    "resources/_gen/assets",
+    "resources/_gen",
+    "resources",
+    "content/blog/en/helloworld.en.md",
     "content/blog/zh/helloworld.md",
     "content/blog/zh/cow-trie.md",
     "content/about.zh.md",
     "content/about.en.md",
-    "content/blog/en/helloworld.en.md",
     "2024-07-30.md",
     "content/blog/zh/中文測試.md",
     "img/cow-trie..md",
     "img",
-    "static/img/trie-result.png",
-    "static/img"
+    "img/trie-result.png",
+    "img"
   ]
 }
