@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae4fd0c5c95e31ff",
+        "id": "e8fbe98dd30c74da",
         "type": "tabs",
         "children": [
           {
-            "id": "4c8f89b3a7c721d1",
+            "id": "7e0777a7caa3d6ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e21108b4d07a114b",
+  "active": "7e0777a7caa3d6ef",
   "lastOpenFiles": [
+    "content/blog/zh/helloworld.md",
+    "content/blog/zh/cow-trie.md",
     "resources/_gen/assets/scss/scss/app.scss_6b12950d2b9f6e2af6adb89100f8a722.content",
     "resources/_gen/assets/scss/scss/app.scss_6b12950d2b9f6e2af6adb89100f8a722.json",
     "resources/_gen/assets/scss/scss",
@@ -157,8 +159,6 @@
     "resources/_gen",
     "resources",
     "content/blog/en/helloworld.en.md",
-    "content/blog/zh/helloworld.md",
-    "content/blog/zh/cow-trie.md",
     "content/about.zh.md",
     "content/about.en.md",
     "2024-07-30.md",
