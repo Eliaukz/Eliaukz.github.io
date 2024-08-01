@@ -1,6 +1,6 @@
 ---
-title: "about"
-layout: "about"
+title: Eliaukz
+layout: about
 date: 2024-07-24 23:31:30
 ---
 

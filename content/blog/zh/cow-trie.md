@@ -208,5 +208,5 @@ void TrieStore::Remove(std::string_view key) {
 
 
 
-![result](https://raw.githubusercontent.com/Eliaukz/blog-comments/main/trie-result.png)
+![result](img/trie-result.png)
 
