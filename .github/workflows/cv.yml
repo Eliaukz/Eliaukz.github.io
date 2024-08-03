@@ -1,0 +1,29 @@
+name: update CV
+
+on:
+  push:
+    paths:
+      - 'static/CV/index.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Makefile directory
+      run: |
+        cd static/CV
+        echo "Makefile directory set to $(pwd)"
+    
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+
+        
+    - name: Run Makefile
+      run: make
+      working-directory: static/CV
