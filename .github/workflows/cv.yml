@@ -2,8 +2,12 @@ name: update CV
 
 on:
   push:
+    branches: ["master"]
+    
     paths:
       - 'static/CV/index.md'
+      
+  workflow_dispatch:
 
 jobs:
   build:
