@@ -6,7 +6,7 @@ on:
     
     paths:
       - 'static/CV/index.md'
-      
+
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,9 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pandoc
+        sudo apt install texlive-xetex latex-cjk-all
+        sudo apt-get install fonts-noto
+        sudo apt-get install texlive-fonts-extra
 
         
     - name: Run Makefile
