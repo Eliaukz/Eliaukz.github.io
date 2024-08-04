@@ -45,6 +45,16 @@ h2:before {
     background-color: #1e66f5;
 }
 
+h2:after {
+    content: "";
+    display: inline-block;
+    margin-left:1%;
+    width: 16%;
+    height: 5px;
+    /*background-color: #9CB770;*/
+    background-color: #1e66f5;
+}
+
 /* Definitions */
 dt {
     float: left;
@@ -77,3 +87,4 @@ a:hover, a:active {
 hr {
     color: #A6A6A6;
 }
+
