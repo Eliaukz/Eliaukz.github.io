@@ -8,10 +8,19 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 <style>
 /*
@@ -103,36 +112,69 @@ hr {
 <h2 id="about">About</h2>
 <dl>
 <dt>A Little About Me</dt>
-<dd>Hello! My name is ZidaYin.
+<dd>
+Hello! My name is ZidaYin.
 </dd>
-<dd>I’m a Computer Science student in <a href="https://www.hust.edu.cn/">hust</a>
+<dd>
+I’m a Computer Science student in <a
+href="https://www.hust.edu.cn/">hust</a>
 </dd>
 </dl>
 <h2 id="education">Education</h2>
 <dl>
 <dt>2021 - current</dt>
-<dd><strong>HUST, Computer Science</strong>
+<dd>
+<strong>HUST, Computer Science</strong>
 </dd>
 </dl>
-<h2 id="experience">Experience</h2>
 <h2 id="projects">Projects</h2>
+<dl>
+<dt>xv6</dt>
+<dd>
+xv6 是 MIT 开发的一个教学用的完整的类 Unix 操作系统，并且在 MIT
+的操作系统课程 6.1810 中使用。<a
+href="https://github.com/Eliaukz/xv6.git">code</a>
+</dd>
+<dt>6.5840</dt>
+<dd>
+MIT 6.5840 是一门讲解分布式系统的课程。
+我完成了mapreduce算法，raft算法的领导选举，日志复制及快照功能。并基于raft算法完成了一个多机k-v系统。<a
+href="https://github.com/Eliaukz/6.5840.git">code</a>
+</dd>
+<dt>minnow</dt>
+<dd>
+minnow
+是计算机网络课程的一个经典实验，我实现了基于内存的字节流实现，tcp发送方和接收方，基础的arp协议和路由算法。<a
+href="https://github.com/Eliaukz/minnow.git">code</a>
+</dd>
+<dt>hust课程设计</dt>
+<dd>
+<ol type="1">
+<li>基于dpll算法的SAT求解器，并用于求解双数独。</li>
+<li>基于riscv指令集的五段流水线</li>
+<li>riscv-pke：华科操作系统实验及课程设计</li>
+</ol>
+</dd>
+</dl>
 <h2 id="skills">Skills</h2>
 <dl>
 <dt>2021 - Continuing</dt>
-<dd><ul>
+<dd>
+<ul>
 <li>Languages: C, Python, Markdown, Cpp, Golang</li>
 <li>Operating Systems: Linux, Windows, macOS</li>
 </ul>
 </dd>
 </dl>
-<h2 id="honors-awards">Honors &amp; Awards</h2>
-<h2 id="activities-interests">Activities &amp; Interests</h2>
 <h2 id="contact">Contact</h2>
 <dl>
 <dt>contact</dt>
-<dd>Github <a href="https://github.com/Eliaukz">https://github.com/Eliaukz</a>
+<dd>
+Github <a
+href="https://github.com/Eliaukz">https://github.com/Eliaukz</a>
 </dd>
-<dd>Blog <a href="https://eliaukz.github.io/">https://eliaukz.github.io/</a>
+<dd>
+Blog <a href="https://eliaukz.github.io/">https://eliaukz.github.io/</a>
 </dd>
 </dl>
 </body>
